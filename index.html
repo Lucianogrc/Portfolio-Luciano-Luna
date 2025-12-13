@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Portfolio | Luciano Luna</title>
+  <meta name="description" content="Modern portfolio with clean dark design." />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">
+        <span class="l-letter">Luciano
+        <span class="l-letter">Luna
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>
+        Full-Stack<br>
+        <span>Developer</span>
+      </h1>
+
+      <p>
+        Building digital experiences that merge creativity
+        with cutting-edge technology.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn primary">Let’s Connect</a>
+
+        <!-- SOCIAL ICONS -->
+        <div class="hero-socials">
+          <a href="https://instagram.com/luciano__grc" target="_blank" aria-label="Instagram">
+            <svg viewBox="0 0 24 24">
+              <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5z"/>
+              <circle cx="12" cy="12" r="3"/>
+              <circle cx="17.5" cy="6.5" r="1"/>
+            </svg>
+          </a>
+
+          <a href="https://github.com/Lucianogrc" target="_blank" aria-label="GitHub">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2C6.5 2 2 6.6 2 12.2c0 4.5 2.9 8.3 6.9 9.6.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.4-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 3 .8.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5a3.9 3.9 0 0 1 1-2.7 3.6 3.6 0 0 1 .1-2.6s.8-.3 2.7 1a9.2 9.2 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1a3.6 3.6 0 0 1 .1 2.6 3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10.2 10.2 0 0 0 22 12.2C22 6.6 17.5 2 12 2z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-avatar">
+      <img src="profile.png" alt="Profile photo">
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2>Technical Expertise</h2>
+
+    <div class="cards">
+
+      <article class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M7 8l-3 4 3 4M17 8l3 4-3 4M10 18l4-12"/>
+          </svg>
+        </div>
+        <h3>Frontend Development</h3>
+        <p>React Native, Expo, HTML, CSS, JavaScript</p>
+      </article>
+
+      <article class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M4 6h16v4H4zM4 14h16v4H4z"/>
+          </svg>
+        </div>
+        <h3>Backend Development</h3>
+        <p>Node.js, Python, C++, PostgreSQL</p>
+      </article>
+
+      <article class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M3 17l6-6 4 4 8-8"/>
+          </svg>
+        </div>
+        <h3>UI / UX Design</h3>
+        <p>Figma, Prototyping, User Testing</p>
+      </article>
+
+    </div>
+  </section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section dark">
+  <h2>Projects</h2>
+
+  <div class="cards">
+
+    <article class="card project-card">
+      <h3>SafeStep</h3>
+
+      <p>
+        SafeStep is a mobile application focused on safety for hikers and organizations.
+        I worked as a Full-Stack Developer, handling UI/UX, frontend and backend development.
+      </p>
+
+      <ul class="project-stack">
+        <li>React Native</li>
+        <li>Expo</li>
+        <li>Node.js</li>
+        <li>PostgreSQL</li>
+        <li>Figma</li>
+        <li>User Testing</li>
+      </ul>
+
+      <!-- CANVA PRESENTATION -->
+      <div class="canva-wrapper">
+  <iframe
+    src="https://www.canva.com/design/DAG3-wg-saI/T255GEwtvEX5pBwj3QHuWw/view?embed"
+    allowfullscreen
+    loading="lazy">
+  </iframe>
+</div>
+
+
+      <!-- PLACEHOLDER FOR IMAGES -->
+      <div class="project-images">
+        <!-- Later you can add screenshots here -->
+        <!-- <img src="safestep-1.png" alt="SafeStep screen"> -->
+      </div>
+
+    </article>
+
+  </div>
+</section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+
+    <div class="cards">
+      <article class="card contact-card">
+
+        <div class="contact-row">
+          <svg viewBox="0 0 24 24">
+            <path d="M2 6h20v12H2z"/>
+            <path d="M2 6l10 7 10-7"/>
+          </svg>
+          <span>luciano.grcc@gmail.com</span>
+        </div>
+
+        <div class="contact-row">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7z"/>
+            <circle cx="12" cy="9" r="2.5"/>
+          </svg>
+          <span>Tecnológico de Monterrey · Campus Guadalajara</span>
+        </div>
+
+        <div class="contact-row">
+          <svg viewBox="0 0 24 24">
+            <path d="M16 2H8a2 2 0 0 0-2 2v16l6-3 6 3V4a2 2 0 0 0-2-2z"/>
+          </svg>
+          <span>Full-Stack Developer · UI/UX Oriented</span>
+        </div>
+
+      </article>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    © 2025 Luciano Luna
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
