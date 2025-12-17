@@ -417,35 +417,3 @@ body {
     margin-top: 2rem; /* mejor respiración visual */
   }
 }
-
-/* =========================
-   MOBILE HEADER FIX
-========================= */
-@media (max-width: 768px) {
-
-  .nav {
-    flex-direction: column;
-    gap: 0.8rem;
-    padding: 1rem 1.5rem;
-  }
-
-  .logo {
-    font-size: 1.1rem;
-    text-align: center;
-    line-height: 1.2;
-  }
-
-  .logo span {
-    display: inline;
-  }
-
-  .nav-links {
-    width: 100%;
-    justify-content: center;
-    gap: 1.5rem;
-  }
-
-  .nav-links a {
-    font-size: 0.95rem;
-  }
-}
