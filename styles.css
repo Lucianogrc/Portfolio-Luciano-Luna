@@ -231,12 +231,30 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
+
 /* PROJECTS */
 #projects .cards {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 3.5rem;
+  width: 100%;
 }
+
+#projects .project-card {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+  isolation: isolate;
+}
+
+#projects .project-card + .project-card {
+  margin-top: 0;
+}
+
 
 #projects .project-card {
   width: 100%;
